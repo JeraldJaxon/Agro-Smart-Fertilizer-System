@@ -80,8 +80,6 @@ Data is pushed to the **Blynk IoT cloud platform**, enabling farmers and researc
 
 ## 🗺️ Circuit Diagram
 
-> 📁 Full circuit diagram available in [`images/circuit_diagram.png`](images/circuit_diagram.png)
-
 **Quick Pin Reference (ESP32):**
 
 | ESP32 Pin | Connected To |
@@ -109,14 +107,7 @@ Data is pushed to the **Blynk IoT cloud platform**, enabling farmers and researc
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/JeraldJaxon/Agro-Smart-Fertilizer-System.git
-cd Agro-Smart-Fertilizer-System
-```
-
-### 2. Configure Blynk Credentials
+### 1. Configure Blynk Credentials
 
 Open `code/AgroSmartFertilizer.ino` and update these lines:
 
@@ -129,20 +120,20 @@ char ssid[] = "YOUR_WIFI_SSID";
 char pass[] = "YOUR_WIFI_PASSWORD";
 ```
 
-### 3. Set Threshold Values (Optional)
+### 2. Set Threshold Values (Optional)
 
 ```cpp
 #define MOISTURE_THRESHOLD   40    // % — below this, pump activates
 #define TEMP_MAX_THRESHOLD   35    // °C — alert if exceeded
 ```
 
-### 4. Upload to ESP32
+### 3. Upload to ESP32
 
 - Select board: `ESP32 Dev Module`
 - Select correct COM port
 - Click **Upload**
 
-### 5. Monitor via Blynk
+### 4. Monitor via Blynk
 
 Open the **Blynk IoT** app, add your device using the Auth Token, and configure widgets for real-time data.
 
