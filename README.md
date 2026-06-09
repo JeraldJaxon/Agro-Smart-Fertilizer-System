@@ -56,19 +56,7 @@ Data is pushed to the **Blynk IoT cloud platform**, enabling farmers and researc
 
 ## 🏗️ System Architecture
 
-```
-┌─────────────────┐       ┌──────────────────┐       ┌──────────────────────┐
-│  Environmental  │──────▶│  ESP32 Controller │──────▶│  Fertilizer Dispenser │
-│    Sensors      │       │  (Decision Logic) │       │  (Relay + Pump)       │
-└─────────────────┘       └──────────────────┘       └──────────────────────┘
-                                   │
-                                   │ Wi-Fi
-                                   ▼
-                          ┌──────────────────┐
-                          │   Blynk IoT      │
-                          │   Cloud Dashboard │
-                          └──────────────────┘
-```
+<img width="1064" height="636" alt="Screenshot 2026-06-05 093637" src="https://github.com/user-attachments/assets/8d1d6425-f1f8-419f-9459-8ac88c92d42c" />
 
 **Data Flow:**
 `Sensor Input → ESP32 Processing → Threshold Check → Relay Trigger → Blynk Upload`
@@ -177,13 +165,15 @@ Open the **Blynk IoT** app, add your device using the Auth Token, and configure 
 ## 📸 Project Images
 
 ### Hardware Setup
-![Hardware Setup](images/hardware_setup.jpg)
+![Hardware Setup]
+![Uploading Screenshot 2026-06-05 093637.png…]()
 
 ### Circuit Diagram
 ![Circuit Diagram](images/circuit_diagram.png)
 
 ### Blynk Dashboard
-![Blynk Dashboard](images/dashboard.jpg)
+![Blynk Dashboard]
+<img width="244" height="350" alt="Screenshot 2026-06-05 094145" src="https://github.com/user-attachments/assets/70ab2600-7b18-4d2b-9c1a-6596cfca10a7" />
 
 ---
 
