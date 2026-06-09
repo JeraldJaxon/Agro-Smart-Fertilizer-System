@@ -169,7 +169,8 @@ Open the **Blynk IoT** app, add your device using the Auth Token, and configure 
 <img width="1064" height="636" alt="Screenshot 2026-06-05 093637" src="https://github.com/user-attachments/assets/8d1d6425-f1f8-419f-9459-8ac88c92d42c" />
 
 ### Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](<img width="860" height="495" alt="Screenshot 2026-06-09 104329" src="https://github.com/user-attachments/assets/ef907f5a-6846-4ef5-a3ad-080214a1b78c" />
+)
 
 ### Blynk Dashboard
 ![Blynk Dashboard]
