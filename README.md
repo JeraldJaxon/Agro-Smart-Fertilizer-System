@@ -206,35 +206,14 @@ Open the **Blynk IoT** app, add your device using the Auth Token, and configure 
 
 ---
 
-## 📁 Repository Structure
 
-```
-Agro-Smart-Fertilizer-System/
-│
-├── README.md                        ← You are here
-├── LICENSE
-│
-├── code/
-│   └── AgroSmartFertilizer.ino      ← Main Arduino sketch
-│
-├── images/
-│   ├── hardware_setup.jpg
-│   ├── circuit_diagram.png
-│   └── dashboard.jpg
-│
-└── docs/
-    └── Project_Report.pdf
-```
-
----
 
 ## 👨‍💻 Author
 
 **Jerald Jaxon**
 
-B.Tech — Electronics & Communication Engineering
+Diploma — Electronics Engineering
 
-*Embedded Systems & IoT Enthusiast*
 
 <p>
   <a href="https://github.com/JeraldJaxon">
