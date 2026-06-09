@@ -55,8 +55,8 @@ Data is pushed to the **Blynk IoT cloud platform**, enabling farmers and researc
 ---
 
 ## 🏗️ System Architecture
+<img width="1448" height="840" alt="image" src="https://github.com/user-attachments/assets/db68bd31-0dac-43b4-8bdf-523105be43d2" />
 
-<img width="1064" height="636" alt="Screenshot 2026-06-05 093637" src="https://github.com/user-attachments/assets/8d1d6425-f1f8-419f-9459-8ac88c92d42c" />
 
 **Data Flow:**
 `Sensor Input → ESP32 Processing → Threshold Check → Relay Trigger → Blynk Upload`
@@ -166,7 +166,7 @@ Open the **Blynk IoT** app, add your device using the Auth Token, and configure 
 
 ### Hardware Setup
 ![Hardware Setup]
-![Uploading Screenshot 2026-06-05 093637.png…]()
+<img width="1064" height="636" alt="Screenshot 2026-06-05 093637" src="https://github.com/user-attachments/assets/8d1d6425-f1f8-419f-9459-8ac88c92d42c" />
 
 ### Circuit Diagram
 ![Circuit Diagram](images/circuit_diagram.png)
